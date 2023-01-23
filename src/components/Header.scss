@@ -1,0 +1,32 @@
+.header {
+  height: 5rem;
+  background: green;
+  padding: 0 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__logo {
+    font-weight: bold;
+    color: yellow;
+  }
+  &__nav {
+    width: 50%;
+    max-width: 400px;
+  }
+}
+
+.nav {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  &__link {
+    text-decoration: none;
+    color: yellow;
+    &--active {
+      color: red;
+    }
+  }
+}
